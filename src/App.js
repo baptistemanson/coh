@@ -4,17 +4,12 @@ import Checkboxes from './Checkboxes';
 
 import { scenarioList, expansions as availableOptions } from './scenario';
 
-/**
- * Returns true if subset is included in set
- * 
- * @param {*} subset 
- * @param {*} set 
- */
 const isSubset = (subset, set) => subset.every((elem) => set.indexOf(elem) > -1);
 
 const filter = (options) => {
 	return scenarioList.filter((s) => isSubset(s.requiredExpansions, options));
 };
+
 class App extends Component {
 	constructor() {
 		super();

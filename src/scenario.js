@@ -12,7 +12,6 @@ export const expansions = {
 };
 
 export const scenarioList = [
-	{ name: 'storm of steel', requiredExpansions: [ 2 ] },
 	{
 		name: 'Partisans',
 		description:
@@ -139,5 +138,263 @@ export const scenarioList = [
 		number: 1,
 		booklet: 1,
 		requiredExpansions: [ 1, 8 ]
+	},
+	{
+		name: 'Clear and Secure',
+		booklet: 2,
+		number: 1,
+		requiredExpansions: [ 2 ],
+		description:
+			'As the Germans begin to consolidate their forces their infantry begin to sweep the area for remaining Soviet forces.'
+	},
+	{
+		name: "The Courier's Satchel",
+		booklet: 2,
+		number: 1,
+		requiredExpansions: [ 2 ],
+		description:
+			'The Germans managed to obtain a covert Soviet satchel and the Soviets want it back. The Germans must safely deliver it to headquarters.'
+	},
+	{
+		name: 'Wind or Sniper',
+		booklet: 2,
+		number: 1,
+		requiredExpansions: [ 2 ],
+		description:
+			'A tense battle between advancing Soviet snipers and defending German machine gunners set in a village.'
+	},
+	{
+		name: 'State Farm 158',
+		booklet: 2,
+		number: 1,
+		requiredExpansions: [ 2 ],
+		description:
+			'German supply lines are constantly being broken, so special Panzer Grenadiers have been dispatched to secure the liens.'
+	},
+	{
+		name: 'Pursuit of State Farm 158',
+		booklet: 2,
+		number: 1,
+		requiredExpansions: [ 2 ],
+		description:
+			'The Soviets have taken refuge in a large balka and overlooking hills, and German Panzer Grenadiers must flush them out.'
+	},
+	{
+		name: 'Sneak Attack',
+		booklet: 2,
+		number: 1,
+		requiredExpansions: [ 2 ],
+		description: 'As the Germans begin building a vital bridge, Soviet infantry and mortars fight to stop them. '
+	},
+	{
+		name: 'Wounded Tiger',
+		booklet: 2,
+		number: 1,
+		requiredExpansions: [ 2 ],
+		description:
+			'The Germans have left an immobilized Tiger tank behind. They want to tow it away for repair but the Soviets intend to destroy it first!'
+	},
+	{
+		name: 'Black Knights of the Steppe',
+		booklet: 2,
+		number: 1,
+		requiredExpansions: [ 2 ],
+		description:
+			'Both sides prepare for their armor units to engage in a fierce battle as the Germans attempt to capture and hold the city of Kursk.'
+	},
+	{
+		name: 'Blinding the Bear',
+		booklet: 2,
+		number: 1,
+		requiredExpansions: [ 2 ],
+		description: 'The Germans must capture Soviet strongholds being used to call in artillery fire. '
+	},
+	{
+		name: 'Tanks!',
+		booklet: 2,
+		number: 1,
+		requiredExpansions: [ 2 ],
+		description: 'A slugfest involving 35 tanks as both sides fight for high ground offered by the hills.'
+	},
+	{
+		name: "Rotmistrov's Red Dawn",
+		booklet: 2,
+		number: 1,
+		requiredExpansions: [ 2 ],
+		description: 'The Germans must quickly reach the village and secure it and hold off the Soviet forces.'
+	},
+	{
+		name: 'The Bloody Brothers',
+		booklet: 2,
+		number: 1,
+		requiredExpansions: [ 2 ],
+		description:
+			'The Germans are holding an observation post on a hill, and must secure it against the Soviet forces attempting to retake it.'
+	},
+	{
+		name: 'Luchki (part 1)',
+		booklet: 2,
+		number: 1,
+		requiredExpansions: [ 2 ],
+		description:
+			'Soviet must hold the village against advancing Germans until the last minute, then retreat to safety over the river.'
+	},
+	{
+		name: 'Luchki (part 2)',
+		booklet: 2,
+		number: 1,
+		requiredExpansions: [ 2 ],
+		description:
+			'As the Germans attempt to capture the village and flank Soviet forces, Soviet anti-tank guns pound the oncoming armor.'
+	},
+	{
+		name: 'Dance of the Totenkopfs',
+		booklet: 2,
+		number: 1,
+		requiredExpansions: [ 2 ],
+		description:
+			'As Germans press north against a Soviet tank stronghold, ranks broke down into an every-man-for-himself struggle for survival.'
+	},
+	{
+		name: 'Cherkasskoye (Eastern Flank)',
+		booklet: 5,
+		requiredExpansions: [ 2 ],
+		description:
+			'Designed for beginners, this tanks-only battle heavily punishes the Germans if they lose the control point.'
+	},
+	{
+		name: 'Cherkasskoye (East-Center Flank)',
+		booklet: 5,
+		requiredExpansions: [ 2 ],
+		description:
+			'Germans must gain control of the Soviet-held heights, surrounded by Balkas, to set up their mobile artillery units.'
+	},
+	{
+		name: 'Cherkasskoye (Central Flank)',
+		booklet: 5,
+		requiredExpansions: [ 2 ],
+		description:
+			'Both sides are fighting in a village, with the Soviets earning extra reinforcement for holding a control point.'
+	},
+	{
+		name: 'Cherkasskoye (Western Flank)',
+		booklet: 5,
+		requiredExpansions: [ 2 ],
+		description:
+			'Designed for beginners, this infantry-only battle focuses on the Soviets holding a hill surrounded by a balka against German forces.'
+	},
+	{
+		name: 'Blitzkrieg!',
+		requiredExpansions: [ 3 ],
+		booklet: 3,
+		description: 'German troops must quickly cross heavy terrain before their trapped by Polish infantry.'
+	},
+	{
+		name: 'Calvary Charge!',
+		requiredExpansions: [ 3 ],
+		booklet: 3,
+		description:
+			'Polish outflank the Germans in heavy woods providing cover until the German armored vehicles arrive.'
+	},
+	{
+		name: 'Armored Train No. 53',
+		requiredExpansions: [ 3 ],
+		booklet: 3,
+		description:
+			'German Panzers assault a Polish regiment and then head into a village. Outside, the Polish defend the area.'
+	},
+	{
+		name: 'The Black Brigade',
+		requiredExpansions: [ 3 ],
+		booklet: 3,
+		description:
+			'German Panzers attack the Polish army caught unprepared, who respond with their fastest cavalry units ordered to stall the Germans in the mountain pass. '
+	},
+	{
+		name: 'Tank Clash',
+		requiredExpansions: [ 3 ],
+		booklet: 3,
+		description: 'German tanks cross the river into the plains, supported by artillery; can the Polish survive?'
+	},
+	{
+		name: 'Grojecka Street',
+		requiredExpansions: [ 3 ],
+		booklet: 3,
+		description: 'Polish barricades and anti-tank guns guard the streets, slowing the oncoming German assault.'
+	},
+	{
+		name: 'Shadows in the Mist',
+		requiredExpansions: [ 3 ],
+		booklet: 3,
+		description:
+			'Hand-to-hand combat along the riverbanks in a heavy fog, which slowly lifts over the course of battle.'
+	},
+	{
+		name: 'The Romanian Bridgehead',
+		requiredExpansions: [ 3 ],
+		booklet: 3,
+		description:
+			'Polish armor attack the German anti-tank defenses with such speed that Polish infantry are left behind.'
+	},
+	{
+		name: 'The Red Tide',
+		requiredExpansions: [ 3 ],
+		booklet: 3,
+		description:
+			'Soviet units attempt to pin the Polish troops stationed in bunkers, but cannot use their heavy weapons due to the marshy terrain.'
+	},
+	{
+		name: 'Captured Convoy',
+		requiredExpansions: [ 3 ],
+		booklet: 3,
+		description:
+			'Both sides exhausted, the Polish cavalry needs to break through the German lines to rejoin their armor.'
+	},
+	{
+		name: 'Race for Lwow',
+		requiredExpansions: [ 3 ],
+		booklet: 3,
+		description:
+			'The Polish, Soviets, and Germans all fight for possession of the hills which surround the city in a giant “free for all” battle.'
+	},
+	{
+		name: 'No Surrender',
+		requiredExpansions: [ 3 ],
+		booklet: 3,
+		description:
+			'The Polish army must drive back the Soviet tanks using improvised weapons, while communist sympathizers fight with the Soviets; battle takes place entirely in city.'
+	},
+	{
+		name: 'Clashing Sabers',
+		requiredExpansions: [ 3 ],
+		booklet: 3,
+		description:
+			'Ordered to capture the fleeing Germans, Polish mounted and un-mounted troops overran the Germans… into another German unit!'
+	},
+	{
+		name: 'End of the Line',
+		requiredExpansions: [ 3 ],
+		booklet: 3,
+		description:
+			'The Polish army, lacking sufficient anti-tank weapons, must hold on as long as possible against the Soviets without losing their troops.'
+	},
+	{
+		name: 'The Last Stand',
+		requiredExpansions: [ 3 ],
+		booklet: 3,
+		description:
+			'The Polish are being attacked by Soviet artillery and tanks on the south and Soviet cavalry on the East.'
+	},
+	{
+		name: 'Tragedy of Victory',
+		requiredExpansions: [ 3 ],
+		booklet: 3,
+		description:
+			'The ultimate and final battle between German and Polish forces around the city of Wola Gulowska, the Polish are attempt to surround the isolated German motorized division.'
 	}
 ];
+
+/**
+ * 
+
+ */
